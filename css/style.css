@@ -703,6 +703,86 @@ ul#projects li:nth-child(6) {
   background: #999;
 }
 
+h1#social {
+  float: none;
+}
+
+section#social-twitter {
+  float: left;
+  width: 45%;
+  min-height: 400px;
+  margin: 0;
+}
+
+section#social-events,
+section#social-instagram {
+  float: right;
+  width: 45%;
+  margin: 0;
+}
+
+section#social-events {
+  margin-bottom: 3em;
+}
+
+section#social-twitter h1,
+section#social-events h1,
+section#social-instagram h1 {
+  font-size: 1.5em;
+  float: none;
+  width: 100%;
+}
+
+#twitter-posts ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.9em;
+}
+
+#twitter-posts ul li {
+  margin-bottom: 2em;
+}
+
+#instagram-photos div {
+  float: left;
+  width: 22%;
+  margin: 0 3% 3% 0;
+}
+
+#instagram-photos div img {
+  width: 100%;
+}
+
+#social-events ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#social-events ul li {
+  margin-bottom: 1.5em;
+}
+
+#social-events div.event-date {
+  float: left;
+  width: 80px;
+}
+
+#social-events div.event-name {
+  font-size: 1.1em;
+  margin-bottom: 0.2em;
+}
+
+#social-events div.event-location {
+  font-size: 0.8em;
+  color: rgba(0,0,0,0.6);
+}
+
+#social-events div.event-details {
+  float: left;
+}
+
 /****************************
   Footer
 ****************************/
