@@ -783,6 +783,10 @@ section#social-instagram h1 {
   float: left;
 }
 
+section img {
+  max-width: 100%;
+}
+
 /****************************
   Footer
 ****************************/
