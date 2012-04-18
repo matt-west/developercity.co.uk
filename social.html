@@ -29,7 +29,7 @@
        Create your own custom Modernizr build: www.modernizr.com/download/ -->
   <script src="js/libs/modernizr-2.5.3.min.js"></script>
 </head>
-<body>
+<body class="social">
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -144,19 +144,6 @@
   <!-- scripts concatenated and minified via build script -->
   <script src="js/plugins.js"></script>
   <script src="js/script.js"></script>
-  <script>
-    $(function() {
-      $('#twitter-posts').twitter({from: 'MattAntWest', retweets: false, limit : 8, avatar : false});
-
-      $("#instagram-photos").instagram({
-        userId: '10798725',
-        //hash: 'food',
-        clientId: '6b108482fa9944a694a6b1d8807d95a6',
-        accessToken: '10798725.6b10848.eaac2a39c14d4e8e8a5d1b03a3a928ed',
-        show: '12'
-      });
-    });
-  </script>
   <!-- end scripts -->
 
   <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
