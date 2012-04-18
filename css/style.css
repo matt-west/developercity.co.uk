@@ -614,7 +614,6 @@ nav ul li a:focus div.page-description {
 #page-text form.right {
   clear: both;
   float: right;
-  width: 55%;
   line-height: 1.8em;
   letter-spacing: 1px;
   text-align: right;
@@ -785,6 +784,35 @@ section#social-instagram h1 {
 
 section img {
   max-width: 100%;
+}
+
+#page-text h1#contact {
+  float: none;
+}
+
+section#contact-social {
+  margin: 0 0 4em;
+  float: left;
+  width: 50%;
+}
+
+section#contact-trad {
+  margin: 0;
+  float: left;
+  width: 50%; 
+}
+
+section#contact-message {
+  float: right;
+  margin: 0;
+  width: 50%;
+}
+
+section#contact-social h1,
+section#contact-trad h1,
+section#contact-message h1 {
+  width: 100%;
+  font-size: 2em;
 }
 
 /****************************
