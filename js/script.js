@@ -68,7 +68,7 @@ $(document).ready(function() {
 });
 
 function getSocial() {
-  $('#twitter-posts').twitter({from: 'MattAntWest', retweets: false, limit : 8, avatar : false});
+  $('#twitter-posts').twitter({from: 'MattAntWest', retweets: false, limit : 8, avatar : false, replies: false});
 
   $("#instagram-photos").instagram({
     userId: '10798725',

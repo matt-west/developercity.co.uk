@@ -229,6 +229,47 @@ body {
   position: absolute;
 }
 
+body.home {
+  background: black url('http://codingskyscrapers.com/assets/img/empire_state.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-top: none;
+}
+
+body.home nav ul li a div.page-title {
+  color: white;
+  text-shadow: none;
+}
+
+body.home nav ul li a div.page-description {
+  color: #BABABA;
+  text-shadow: none;
+}
+
+body.home nav ul li a.active div.page-title,
+body.home nav ul li a:hover div.page-title,
+body.home nav ul li a:focus div.page-title,
+body.home nav ul li a.active div.page-description,
+body.home nav ul li a:hover div.page-description,
+body.home nav ul li a:focus div.page-description {
+  color: #BABABA !important;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+}
+
+body.home footer {
+  color: #BABABA;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
 header {
   width: 90%;
   margin: 0 auto;
@@ -483,8 +524,14 @@ nav ul li a:focus div.page-description {
 }
 
 #home-container {
-  width: 90%;
-  margin: 0 auto;
+  color: white;
+  position: absolute;
+  left: 50%;
+  margin-left: -371px;
+  top: 50%;
+  margin-top: -82px;
+  background: rgba(0,0,0,0.7);
+  padding: 15px 30px 30px;
 }
 
 #home-container h1 {
@@ -503,7 +550,7 @@ nav ul li a:focus div.page-description {
   letter-spacing: 3px;
   font-size: 1.4em;
   font-style: italic;
-  color: rgba(0,0,0,0.4);
+  color: white;
 }
 
 #feature {
@@ -814,6 +861,41 @@ section#contact-message h1 {
   width: 100%;
   font-size: 2em;
 }
+
+/****************************
+  Portfolio
+****************************/
+
+section.project img {
+  max-width: 100%;
+}
+
+#page-text section.project-borders {
+  border-top: 1px solid #EEEEEE;
+  margin-top: 3em;
+  padding-top: 3em;
+}
+
+.project p {
+  max-width: 45%;
+  clear: none !important;
+}
+
+.project h1 {
+  max-width: 45%;
+  clear: none !important;
+}
+
+.project figure.left {
+  float: left;
+  max-width: 50%;
+}
+
+.project figure.right {
+  float: right;
+  max-width: 50%;
+}
+
 
 /****************************
   Footer
