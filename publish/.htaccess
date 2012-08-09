@@ -327,6 +327,8 @@ FileETag None
   Options +FollowSymlinks
   RewriteEngine On
 # RewriteBase /
+  RewriteRule ^([^/\.]+)/?$ $1.php [QSA]
+  RewriteRule ^projects/([^/\.]+)/?$ projects/$1.php [QSA]
 </IfModule>
 
 

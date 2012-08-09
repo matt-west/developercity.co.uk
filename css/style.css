@@ -229,8 +229,8 @@ body {
   position: absolute;
 }
 
-body.home {
-  background: black url('http://codingskyscrapers.com/assets/img/empire_state.png') no-repeat center center fixed; 
+body.index {
+  background: black url('../img/home_bg.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -241,29 +241,42 @@ body.home {
   border-top: none;
 }
 
-body.home nav ul li a div.page-title {
+body.index header {
+  padding-top: 6px;
+}
+
+body.index nav ul li a div.page-title {
   color: white;
   text-shadow: none;
 }
 
-body.home nav ul li a div.page-description {
+body.index nav ul li a div.page-description {
   color: #BABABA;
   text-shadow: none;
 }
 
-body.home nav ul li a.active div.page-title,
-body.home nav ul li a:hover div.page-title,
-body.home nav ul li a:focus div.page-title,
-body.home nav ul li a.active div.page-description,
-body.home nav ul li a:hover div.page-description,
-body.home nav ul li a:focus div.page-description {
-  color: #BABABA !important;
+body.index nav ul li a.active div.page-title,
+body.index nav ul li a:hover div.page-title,
+body.index nav ul li a:focus div.page-title {
+  color: #FFF !important;
+  text-shadow: 0 1px 3px rgba(0,0,0,1);
   -webkit-transition: all .4s ease-in-out;
   -moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
 }
 
-body.home footer {
+body.index nav ul li a.active div.page-description,
+body.index nav ul li a:hover div.page-description,
+body.index nav ul li a:focus div.page-description {
+  color: #BABABA !important;
+  text-shadow: 0 1px 3px rgba(0,0,0,1);
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+}
+
+
+body.index footer {
   color: #BABABA;
   width: 100%;
   position: absolute;
@@ -316,6 +329,7 @@ header {
   height: 90px;
   background: url('../img/dc-logo.png') center center no-repeat;
   font-size: 0;
+  opacity: 0.85;
 }
 
 /****************************
@@ -551,6 +565,22 @@ nav ul li a:focus div.page-description {
   font-size: 1.4em;
   font-style: italic;
   color: white;
+}
+
+#image-credit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  background: rgba(0,0,0,0.7);
+  font-size: 0.75em;
+  z-index: 999;
+}
+
+#image-credit a {
+  color: #BABABA;
+  display: block;
+  padding: 0.5em 1em;
 }
 
 #feature {
@@ -866,36 +896,107 @@ section#contact-message h1 {
   Portfolio
 ****************************/
 
+#page-text section.project {
+  width: 100%;
+  height: auto;
+  position: relative;
+  min-height: 100px;
+  margin-top: 3em !important;
+}
+
+section.project-first {
+  margin-top: 2em;
+}
+
 section.project img {
-  max-width: 100%;
+  width: 100%;
 }
 
-#page-text section.project-borders {
-  border-top: 1px solid #EEEEEE;
-  margin-top: 3em;
-  padding-top: 3em;
+.project a {
+  display: block;
 }
 
-.project p {
-  max-width: 45%;
+#page-text .project h1 {
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+  display: block;
+  color: white;
+  padding: 0.5em 1em 0.5em;
+  text-align: center;
+  background: black;
+  background: rgba(0,0,0,0.8);
+  max-width: none;
+  width: auto;
+  float: none;
+  font-size: 2em;
   clear: none !important;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
-.project h1 {
-  max-width: 45%;
-  clear: none !important;
+#page-text .project a:hover h1 {
+  background: black;
 }
 
-.project figure.left {
+#page-text .project a:hover img {
+
+}
+
+h1#project-title {
+  width: 100%;
+  float: none;
+}
+
+#page-text #project-description {
   float: left;
-  max-width: 50%;
+  width: 65%;
+  margin-top: 0;
 }
 
-.project figure.right {
+#page-text #project-tools {
   float: right;
-  max-width: 50%;
+  width: 30%;
+  margin-top: 0;
 }
 
+#page-text #project-images {
+  text-align: center;
+  margin: 1em 0 3em;
+}
+
+#page-text #project-images img {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  width: 30%;
+  margin: 0 1.5%;
+}
+
+#page-text #project-description h1,
+#page-text #project-tools h1 {
+  float: none;
+  width: auto;
+  font-size: 1.5em;
+}
+
+#page-text #project-description p,
+#page-text #project-tools p {
+  line-height: 1.8em;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+#page-text #project-description ul,
+#page-text #project-tools ul {
+  list-style: none;
+  line-height: 1.8em;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
 
 /****************************
   Footer
