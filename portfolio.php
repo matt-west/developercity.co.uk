@@ -1,5 +1,5 @@
 <?php
-  $title = "Projects // Developer City";
+  $title = "Portfolio // Developer City";
   $description = "";
   
   include_once('templates/header.php');
@@ -7,7 +7,7 @@
 
   <div id="container" class="clearfix" role="main">
     <section id="page-text" class="clearfix">
-      <h1>Projects</h1>
+      <h1>Portfolio</h1>
 
       <!-- LOCARN -->
       <section class="project clearfix">

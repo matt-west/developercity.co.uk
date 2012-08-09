@@ -27,6 +27,12 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" /> 
   <link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon" /> 
 
+  <meta property="og:image" content="img/full-logo.png"/>
+
+  <link rel="apple-touch-icon" href="apple_touch.png"/>
+  <link rel="apple-touch-icon" sizes="72x72" href="apple_touch_72.png"/>
+  <link rel="apple-touch-icon" sizes="114x114" href="apple_touch_114.png"/>
+
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
   <link rel="stylesheet" href="css/style.css">
@@ -70,8 +76,8 @@
           </a>
         </li>
         <li>
-          <a href="projects" title="Projects" <?= ($current_page == "projects") ? "class='active'" : "" ?>>
-            <div class="page-title">Projects</div>
+          <a href="portfolio" title="Portfolio" <?= ($current_page == "portfolio") ? "class='active'" : "" ?>>
+            <div class="page-title">Portfolio</div>
             <div class="page-description">Our Work</div>
           </a>
         </li>

@@ -18,7 +18,7 @@
   <title><?= $title ?></title>
   <meta name="description" content="<?= $description ?>">
 
-  <base href="http://localhost/Projects/websites/developercity/">
+  <base href="http://beta.developercity.co.uk/">
 
   
   <meta name=viewport content="width=device-width">
