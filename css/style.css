@@ -1036,6 +1036,80 @@ footer p:before {
   /* Style adjustments for viewports that meet the condition */
 }
 
+@media only screen and (max-width: 860px), only screen and (max-device-width: 860px) {
+  header,
+  #container {
+    width: auto;
+    margin: 0 10px;
+  }
+
+  #logo {
+    position: relative !important;
+    clear: both;
+    margin: 0 auto;
+    width: 90px;
+    left: 0;
+  }
+
+  nav {
+    float: none;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  nav ul li {
+    float: none;
+    display: inline-block;
+    padding: 0;
+  }
+
+  nav ul li a div.page-description {
+    display: none;
+  }
+
+  #container {
+    margin-top: 0;
+  }
+
+  #page-text p.left {
+    float: none;
+    width: 100%;
+  }
+
+  #page-text p.right {
+    float: none;
+    width: 100%;
+  }
+
+  #page-text form.right {
+    float: none;
+  }
+
+  #page-text h1 {
+    width: 100%;
+  }
+
+  #page-text > section {
+    margin-top: 4em;
+  }
+
+  #page-text > section > h1.left {
+    float: none;
+  }
+
+  #page-text > section > h1.right {
+    float: none;
+    text-align: left;
+  }
+
+  #page-text > section.left {
+    float: none;
+  }
+
+  #page-text > section.right {
+    float: none;
+  }
+}
 
 
 /* ==|== non-semantic helper classes ========================================
