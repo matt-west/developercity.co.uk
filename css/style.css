@@ -328,8 +328,7 @@ header {
   width: 90px;
   height: 90px;
   background: url('../img/dc-logo.png') center center no-repeat;
-  font-size: 0;
-  opacity: 0.85;
+  text-indent: -9999px;
 }
 
 /****************************
@@ -784,15 +783,14 @@ h1#social {
 }
 
 section#social-twitter {
-  float: left;
+  float: right;
   width: 45%;
   min-height: 400px;
   margin: 0;
 }
 
-section#social-events,
-section#social-instagram {
-  float: right;
+div#social-left {
+  float: left;
   width: 45%;
   margin: 0;
 }
@@ -1012,7 +1010,7 @@ footer {
 footer p {
   margin: 0 0 0.5em 0;
   font-size: 1.6em;
-  font-family: 'Niconne';
+  font-family: 'Niconne', cursive;
 }
 
 footer p:after,
@@ -1045,6 +1043,27 @@ footer p:before {
 
   #logo {
     position: relative !important;
+    float: left;
+    left: 0;
+  }
+
+  nav {
+    margin-bottom: 2.1em;
+  }
+
+  nav ul li {
+    padding: 0.25em 0;
+  }
+}
+
+@media only screen and (max-width: 685px), only screen and (max-device-width: 685px) {
+  #page-text {
+    padding: 2em;
+  }
+
+  #logo {
+    float: none;
+    position: relative !important;
     clear: both;
     margin: 0 auto;
     width: 90px;
@@ -1055,6 +1074,7 @@ footer p:before {
     float: none;
     text-align: center;
     margin-top: 0;
+    margin-bottom: 0;
   }
 
   nav ul li {
@@ -1108,6 +1128,97 @@ footer p:before {
 
   #page-text > section.right {
     float: none;
+  }
+}
+
+@media only screen and (max-width: 500px), only screen and (max-device-width: 500px) {
+  body {
+    min-height: 500px;
+  }
+
+  nav {
+    padding: 0.5em 0;
+  }
+
+  nav ul li a {
+    padding: 0.5em;
+  }
+
+  #home-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: -40px 0 0 0;
+    padding: 15px 10px 15px;
+  }
+
+  #home-container h1 {
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 1.5em;
+    margin: 0 0 0.5em;
+  }
+
+  #home-container h2 {
+    font-size: 0.8em;
+  }
+
+  #page-text {
+    padding: 1.5em;
+  }
+
+  #page-text h1 {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+  }
+
+  #page-text p.emphasize {
+    font-size: 1em;
+  }
+
+  #page-text > section {
+    margin-top: 2em;
+  }
+
+  #page-text > section > h1.left,
+  #page-text > section > h1.right {
+    font-size: 1.2em;
+    letter-spacing: 2px;
+  }
+
+  section#contact-message,
+  section#contact-social,
+  section#contact-trad {
+    float: none;
+    width: auto;
+    margin: 2em 0 0 0;
+  }
+
+  section#contact-social h1, section#contact-trad h1, section#contact-message h1,
+  section#social-twitter h1, section#social-events h1, section#social-instagram h1 {
+    font-size: 1.2em;
+    letter-spacing: 2px;
+  }
+
+  section#social-twitter,
+  div#social-left {
+    float: none;
+    width: auto;
+    margin: 2em 0 0 0;
+  }
+
+  #social-events div.event-date {
+    width: 60px;
+  }
+
+  footer {
+    margin-bottom: 3em;
+  }
+
+  #image-credit {
+    left: 0;
+    text-align: center;
   }
 }
 

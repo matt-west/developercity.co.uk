@@ -19,7 +19,7 @@
   <title><?= $title ?></title>
   <meta name="description" content="<?= $description ?>">
 
-  <base href="http://localhost/Projects/websites/developercity/">
+  <base href="http://192.168.0.51/Projects/websites/developercity/">
 
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
   <meta name="viewport" content="width=device-width">
@@ -36,6 +36,7 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
   <link rel="stylesheet" href="css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
