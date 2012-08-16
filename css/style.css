@@ -252,7 +252,10 @@ body.index nav ul li a div.page-title {
 
 body.index nav ul li a div.page-description {
   color: #BABABA;
-  text-shadow: none;
+  text-shadow: none !important;
+  -moz-text-shadow: none !important;
+  -webkit-text-shadow: none !important;
+  -o-text-shadow: none !important;
 }
 
 body.index nav ul li a.active div.page-title,
@@ -297,7 +300,7 @@ header {
   background-image: -webkit-linear-gradient(top, #2E2E2E, black);
   background-image: -moz-linear-gradient(top, black, #2E2E2E);
   background-image: -ms-linear-gradient(top, black, #2E2E2E);
-  background-image: -o-linear-gradient(top, black, #2E2E2E);
+  background-image: -o-linear-gradient(top, #2E2E2E, black);
   margin-top: 1.5em;
   box-shadow: 0 0 10px rgba(0,0,0,0.6);
   -webkit-transition: all .4s ease-in-out;
@@ -417,7 +420,7 @@ nav ul li a:focus div.page-description {
   background-image: -webkit-linear-gradient(top, #2E2E2E, black);
   background-image: -moz-linear-gradient(top, black, #2E2E2E);
   background-image: -ms-linear-gradient(top, black, #2E2E2E);
-  background-image: -o-linear-gradient(top, black, #2E2E2E);
+  background-image: -o-linear-gradient(top, #2E2E2E, black);
   box-shadow: 0 0 10px rgba(0,0,0,0.6);
   width: 90px;
   max-height: 34px;
@@ -543,6 +546,7 @@ nav ul li a:focus div.page-description {
   margin-left: -401px;
   top: 50%;
   margin-top: -82px;
+  background: black;
   background: rgba(0,0,0,0.7);
   padding: 15px 30px 30px;
   font-family:"NeoGram UltraLight", Helvetica Neue, Arial, Verdana , sans-serif;
@@ -632,8 +636,6 @@ nav ul li a:focus div.page-description {
   font-size: 4em;
   line-height: 1.2em;
   margin: 0 0 0.5em 0;
-  width: 50%;
-  float: left;
   clear: both;
   font-family:"NeoGram UltraLight", Helvetica Neue, Arial, Verdana , sans-serif;
 }
@@ -1229,6 +1231,8 @@ footer p:before {
 
   #page-text p.emphasize {
     font-size: 1em;
+    font-family: Helvetica Neue, Helvetica, Arial, Sans-serif;
+    font-weight: 200;
   }
 
   #page-text > section {

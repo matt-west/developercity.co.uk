@@ -5,8 +5,6 @@
 $(document).ready(function() {
 	win = $(document);
 
-	//alert(document.width);
-
 	if ($('body').hasClass('home')) {
 		//$('body').css('height', (window.innerHeight * 3) + 'px');
 	
@@ -33,7 +31,7 @@ $(document).ready(function() {
 	win.scroll(function(data) {
 		// Only enabled the slidy logo/menu combo for viewports larger than 1024.
 		// This prevents things breaking on mobiles/tablets.
-		if (document.width > 1024) {
+		if (win.width() > 1024) {
 			// Make the logo fixed
 			$("#logo").css('position', 'fixed');
 

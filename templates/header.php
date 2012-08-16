@@ -44,6 +44,9 @@
        Modernizr enables HTML5 elements & feature detects for optimal performance.
        Create your own custom Modernizr build: www.modernizr.com/download/ -->
   <script src="js/libs/modernizr-2.5.3.min.js"></script>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <![endif]-->
 </head>
 <body class="<?= $current_page ?>">
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
