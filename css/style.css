@@ -809,6 +809,7 @@ section#social-instagram h1 {
   font-size: 1.5em;
   float: none;
   width: 100%;
+  font-family:"NeoGram UltraLight", Helvetica Neue, Arial, Verdana , sans-serif;
 }
 
 #twitter-posts ul {
@@ -892,6 +893,7 @@ section#contact-trad h1,
 section#contact-message h1 {
   width: 100%;
   font-size: 2em;
+  font-family:"NeoGram UltraLight", Helvetica Neue, Arial, Verdana , sans-serif;
 }
 
 /****************************
@@ -1008,13 +1010,13 @@ footer {
   margin: 1em 0;
   font-size: 0.8em;
   color: rgba(0,0,0,0.3);
-  letter-spacing: 1px;
 }
 
 footer p {
   margin: 0 0 0.5em 0;
   font-size: 1.6em;
   font-family: 'Niconne', cursive;
+  letter-spacing: 1px;
 }
 
 footer p:after,
