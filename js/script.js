@@ -24,7 +24,6 @@ $(document).ready(function() {
 
 	// Logo Start Position
 	logo = $("#logo");
-	$("#logo").css('position', 'fixed');
 
 	nav = $("nav");
 	menu = $("#menu-side");
@@ -32,8 +31,12 @@ $(document).ready(function() {
 
 	// Scroll Listener
 	win.scroll(function(data) {
+		// Only enabled the slidy logo/menu combo for viewports larger than 1024.
+		// This prevents things breaking on mobiles/tablets.
+		if (document.width > 1024) {
+			// Make the logo fixed
+			$("#logo").css('position', 'fixed');
 
-		if (document.width > 860) {
 			if (win.scrollTop() > 20) {
 				logo.addClass('fix-side');
 
@@ -53,6 +56,9 @@ $(document).ready(function() {
 				$("#feature").removeClass('hide');
 				$("#design").removeClass('show');
 			}
+		} else {
+			// Make the logo absolutely positioned
+			$("#logo").css('position', 'absolute');
 		}
 
 	});

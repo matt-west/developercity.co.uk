@@ -545,6 +545,7 @@ nav ul li a:focus div.page-description {
   margin-top: -82px;
   background: rgba(0,0,0,0.7);
   padding: 15px 30px 30px;
+  font-family:"NeoGram UltraLight", Helvetica Neue, Arial, Verdana , sans-serif;
 }
 
 #home-container h1 {
@@ -627,17 +628,19 @@ nav ul li a:focus div.page-description {
   text-transform: uppercase;
   font-weight: 100;
   text-align: left;
-  letter-spacing: 7px;
+  letter-spacing: 5px;
   font-size: 4em;
   line-height: 1.2em;
   margin: 0 0 0.5em 0;
   width: 50%;
   float: left;
   clear: both;
+  font-family:"NeoGram UltraLight", Helvetica Neue, Arial, Verdana , sans-serif;
 }
 
 #page-text > section > h1 {
   text-transform: none;
+  font-family:"NeoGram UltraLight", Helvetica Neue, Arial, Verdana , sans-serif;
 }
 
 #page-text > section > h1.left {
@@ -735,6 +738,7 @@ button#submit:focus {
   text-align: left;
   font-weight: 100;
   letter-spacing: 2px;
+  font-family:"NeoGram UltraLight", Helvetica Neue, Arial, Verdana , sans-serif;
 }
 
 #page-text p.text-left {
@@ -1129,6 +1133,25 @@ footer p:before {
   #page-text > section.right {
     float: none;
   }
+
+  section#contact-message,
+  section#contact-social,
+  section#contact-trad {
+    float: none;
+    width: auto;
+    margin: 2em 0 0 0;
+  }
+
+  section#social-twitter,
+  div#social-left {
+    float: none;
+    width: auto;
+    margin: 2em 0 0 0;
+  }
+
+  #social-events div.event-date {
+    width: 60px;
+  }
 }
 
 @media only screen and (max-width: 500px), only screen and (max-device-width: 500px) {
@@ -1169,7 +1192,7 @@ footer p:before {
   }
 
   #page-text h1 {
-    font-size: 1.5em;
+    font-size: 2em;
     letter-spacing: 2px;
   }
 
@@ -1187,29 +1210,10 @@ footer p:before {
     letter-spacing: 2px;
   }
 
-  section#contact-message,
-  section#contact-social,
-  section#contact-trad {
-    float: none;
-    width: auto;
-    margin: 2em 0 0 0;
-  }
-
   section#contact-social h1, section#contact-trad h1, section#contact-message h1,
   section#social-twitter h1, section#social-events h1, section#social-instagram h1 {
     font-size: 1.2em;
     letter-spacing: 2px;
-  }
-
-  section#social-twitter,
-  div#social-left {
-    float: none;
-    width: auto;
-    margin: 2em 0 0 0;
-  }
-
-  #social-events div.event-date {
-    width: 60px;
   }
 
   footer {

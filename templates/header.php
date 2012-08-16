@@ -22,7 +22,7 @@
   <base href="http://192.168.0.51/Projects/websites/developercity/">
 
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width;initial-scale=1.0;" />
   
   <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" /> 
   <link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon" /> 
@@ -34,9 +34,9 @@
   <link rel="apple-touch-icon" sizes="114x114" href="apple_touch_114.png"/>
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
-
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="http://f.fontdeck.com/s/css/kBCt3QS3rQvDiYrN7YSJsihsnuI/192.168.0.51/22808.css" type="text/css" />
   <link href='http://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
