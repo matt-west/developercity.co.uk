@@ -540,7 +540,7 @@ nav ul li a:focus div.page-description {
   color: white;
   position: absolute;
   left: 50%;
-  margin-left: -371px;
+  margin-left: -401px;
   top: 50%;
   margin-top: -82px;
   background: rgba(0,0,0,0.7);
@@ -1047,6 +1047,10 @@ footer p:before {
     margin: 0 10px;
   }
 
+  #home-container {
+    margin-left: -336px;
+  }
+
   #logo {
     position: relative !important;
     float: left;
@@ -1060,9 +1064,34 @@ footer p:before {
   nav ul li {
     padding: 0.25em 0;
   }
+
+  #home-container {
+    
+  }
+
+  #home-container h1 {
+    font-size: 4em;
+  }
 }
 
-@media only screen and (max-width: 685px), only screen and (max-device-width: 685px) {
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
+  #home-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: -40px 0 0 0;
+    padding: 15px;
+  }
+
+  #home-container h1 {
+    font-size: 3em;
+    letter-spacing: 5px;
+  }
+
+  #home-container h2 {
+    font-size: 1.1em
+  }
+
   #page-text {
     padding: 2em;
   }
