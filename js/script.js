@@ -74,6 +74,12 @@ $(document).ready(function() {
 		}
 	});
 
+	// Gallery
+  $(".fancybox").fancybox({
+    openEffect  : 'none',
+    closeEffect : 'none'
+  });
+
 });
 
 function getSocial() {

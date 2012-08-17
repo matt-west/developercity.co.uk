@@ -1,3 +1,6 @@
+@import url('jquery.fancybox.css');
+
+
 /*
  * HTML5 Boilerplate
  *
@@ -902,106 +905,32 @@ section#contact-message h1 {
   Portfolio
 ****************************/
 
-#page-text section.project {
-  width: 100%;
-  height: auto;
-  position: relative;
-  min-height: 100px;
-  margin-top: 3em !important;
-}
-
-section.project-first {
-  margin-top: 2em;
-}
-
-section.project img {
-  width: 100%;
-}
-
-.project a {
-  display: block;
-}
-
-#page-text .project h1 {
-  position: absolute;
-  bottom: 15%;
-  left: 0;
-  display: block;
-  color: white;
-  padding: 0.5em 1em 0.5em;
-  text-align: center;
-  background: black;
-  background: rgba(0,0,0,0.8);
-  max-width: none;
-  width: auto;
-  float: none;
-  font-size: 2em;
-  clear: none !important;
-  -webkit-transition: all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -o-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
-}
-
-#page-text .project a:hover h1 {
-  background: black;
-}
-
-#page-text .project a:hover img {
-
-}
-
-h1#project-title {
-  width: 100%;
-  float: none;
-}
-
-#page-text #project-description {
+.project figure.left {
+  clear: both;
   float: left;
-  width: 65%;
-  margin-top: 0;
+  width: 55%;
+  line-height: 1.8em;
+  letter-spacing: 1px;
+  text-align: justify;
 }
 
-#page-text #project-tools {
+.project figure.right {
+  clear: both;
   float: right;
-  width: 30%;
-  margin-top: 0;
-}
-
-#page-text #project-images {
-  text-align: center;
-  margin: 1em 0 3em;
-}
-
-#page-text #project-images img {
-  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
-  width: 30%;
-  margin: 0 1.5%;
-}
-
-#page-text #project-description h1,
-#page-text #project-tools h1 {
-  float: none;
-  width: auto;
-  font-size: 1.5em;
-}
-
-#page-text #project-description p,
-#page-text #project-tools p {
+  width: 55%;
   line-height: 1.8em;
   letter-spacing: 1px;
   text-align: justify;
 }
 
-#page-text #project-description ul,
-#page-text #project-tools ul {
-  list-style: none;
-  line-height: 1.8em;
-  letter-spacing: 1px;
-  font-size: 0.9em;
-  text-align: justify;
-  margin: 0;
-  padding: 0;
+.project figure img {
+  width: 100%;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+
+.visit-link {
+  display: block;
+  text-align: right;
 }
 
 /****************************
@@ -1136,6 +1065,21 @@ footer p:before {
   #page-text p.right {
     float: none;
     width: 100%;
+  }
+
+  .project figure.left {
+    float: none;
+    width: 100%;
+  }
+
+  .project figure.right {
+    float: none;
+    width: 100%;
+  }
+
+  .visit-link {
+    text-align: left;
+    display: inline;
   }
 
   #page-text form.right {

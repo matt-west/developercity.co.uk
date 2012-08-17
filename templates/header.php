@@ -64,7 +64,7 @@
         <li>
           <a href="about" title="About" <?= ($current_page == "about") ? "class='active'" : "" ?>>
             <div class="page-title">About</div>
-            <div class="page-description">Who We Are</div>
+            <div class="page-description">A Little Info</div>
           </a>
         </li>
         <li>
@@ -82,13 +82,13 @@
         <li>
           <a href="portfolio" title="Portfolio" <?= ($current_page == "portfolio") ? "class='active'" : "" ?>>
             <div class="page-title">Portfolio</div>
-            <div class="page-description">Our Work</div>
+            <div class="page-description">Recent Work</div>
           </a>
         </li>
         <li>
           <a href="social" title="Social Stream" <?= ($current_page == "social") ? "class='active'" : "" ?>>
             <div class="page-title">Social</div>
-            <div class="page-description">Our Noise</div>
+            <div class="page-description">Noise</div>
           </a>
         </li>
         <li>
