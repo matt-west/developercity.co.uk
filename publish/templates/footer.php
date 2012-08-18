@@ -12,7 +12,6 @@
 
   <script defer src='js/4ed6b61.js'></script>
 
-  
-  <script>var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];(function(e,a){var c=e.createElement(a),b=e.getElementsByTagName(a)[0];c.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";b.parentNode.insertBefore(c,b)}(document,"script"));</script>
+  <script type="text/javascript">var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-12756669-1"]);_gaq.push(["_trackPageview"]);(function(){var b=document.createElement("script");b.type="text/javascript";b.async=true;b.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)})();</script>
 </body>
 </html>
