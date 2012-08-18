@@ -1,43 +1,14 @@
-/* the humans responsible & colophon */
-/* humanstxt.org */
-
-
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
-
-/* THANKS */
-  Names (& URL):
-
+  Web Designer & Developer: Matt West
+  Contact: matt.west [at] developercity.co.uk
+  Company: Developer City
+  Site: http://developercity.co.uk
+  Twitter: @MattAntWest
+  From: Guilsborough, Northamptonshire, UK
+  
 /* SITE */
+  Last update: 18/08/2012
+  Language: English
+  Doctype: HTMl5
   Standards: HTML5, CSS3
-  Components: Modernizr, jQuery
-  Software:
-
-
-
-                               -o/-
-                               +oo//-
-                              :ooo+//:
-                             -ooooo///-
-                             /oooooo//:
-                            :ooooooo+//-
-                           -+oooooooo///-
-           -://////////////+oooooooooo++////////////::
-            :+ooooooooooooooooooooooooooooooooooooo+:::-
-              -/+ooooooooooooooooooooooooooooooo+/::////:-
-                -:+oooooooooooooooooooooooooooo/::///////:-
-                  --/+ooooooooooooooooooooo+::://////:-
-                     -:+ooooooooooooooooo+:://////:--
-                       /ooooooooooooooooo+//////:-
-                      -ooooooooooooooooooo////-
-                      /ooooooooo+oooooooooo//:
-                     :ooooooo+/::/+oooooooo+//-
-                    -oooooo/::///////+oooooo///-
-                    /ooo+::://////:---:/+oooo//:
-                   -o+/::///////:-      -:/+o+//-
-                   :-:///////:-            -:/://
-                     -////:-                 --//:
-                       --                       -:
+  Components: jQuery

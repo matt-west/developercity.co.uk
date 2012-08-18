@@ -11,18 +11,19 @@
 
       <section id="contact-message" class="clearfix">
         <h1>Say Hello...</h1>
-        <form method="post" action="./">
+        <div id="form-errors"></div>
+        <form method="post" action="mailers/contact.php">
           <p>
-            <input type="text" name="name" placeholder="Name" required>
+            <input type="text" id="name" name="name" placeholder="Name" required>
           </p>
           <p>
-            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
           </p>
           <p>
-            <input type="email" name="email" placeholder="Email" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
           </p>
           <p>
-            <textarea name="message" placeholder="Type your message here..." required></textarea>
+            <textarea name="message" id="message" placeholder="Type your message here..." required></textarea>
           </p>
           <p>
             <button id="submit">Send</button>

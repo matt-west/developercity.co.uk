@@ -80,6 +80,28 @@ $(document).ready(function() {
     closeEffect : 'none'
   });
 
+  // Contact Form Submission
+  $('#contact-message form').submit(function(e){
+    e.preventDefault();
+
+    $.ajax({
+      url: "mailers/contact.php",
+      data: $(this).serialize(),
+      type: "post",
+      success: function(response){
+        if (response == "true") {
+          $("#name, #phone, #email, #message").val("");
+          html = "<div class='success'>Your message was sent successfully. Thank you.</div>";
+          $("#form-errors").html(html);
+          $('.success').fadeOut(2500);
+        } else {
+          html = "<div class='error'>There was a problem sending your message. Please make sure you filled in all of the fields.</div>";
+          $("#form-errors").html(html);
+        }
+      }
+    });
+  });
+
 });
 
 function getSocial() {
