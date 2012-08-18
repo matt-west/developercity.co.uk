@@ -18,7 +18,7 @@
   <title><?= $title ?></title>
   <meta name="description" content="<?= $description ?>">
 
-  <base href="http://192.168.0.51/Projects/websites/developercity/">
+  <base href="http://developercity.co.uk">
 
   
   <meta name=viewport content="width=device-width; initial-scale=1.0;"/>
@@ -58,7 +58,7 @@
         <li>
           <a href="about" title="About" <?= ($current_page ==about) ? "class=active" : "" ?>>
             <div class=page-title>About</div>
-            <div class=page-description>Who We Are</div>
+            <div class=page-description>Brief Bio</div>
           </a>
         </li>
         <li>
@@ -76,13 +76,13 @@
         <li>
           <a href="portfolio" title="Portfolio" <?= ($current_page ==portfolio) ? "class=active" : "" ?>>
             <div class=page-title>Portfolio</div>
-            <div class=page-description>Our Work</div>
+            <div class=page-description>Recent Work</div>
           </a>
         </li>
         <li>
           <a href="social" title="Social Stream" <?= ($current_page ==social) ? "class=active" : "" ?>>
             <div class=page-title>Social</div>
-            <div class=page-description>Our Noise</div>
+            <div class=page-description>Noise</div>
           </a>
         </li>
         <li>

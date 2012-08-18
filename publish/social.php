@@ -11,7 +11,7 @@
 
       <div id=social-left>
         <section id=social-events>
-          <h1>Upcoming Events</h1>
+          <h1>Say Hello At...</h1>
           <ul>
             <li class=clearfix>
               <div class=event-date>
@@ -51,6 +51,8 @@
       <section id=social-twitter>
         <h1>Latest Tweets</h1>
         <div id=twitter-posts></div>
+        <a href="https://twitter.com/MattAntWest" class=twitter-follow-button data-show-count=false>Follow @MattAntWest</a>
+        <script>!function(e,a,f){var c,b=e.getElementsByTagName(a)[0];if(!e.getElementById(f)){c=e.createElement(a);c.id=f;c.src="//platform.twitter.com/widgets.js";b.parentNode.insertBefore(c,b)}}(document,"script","twitter-wjs");</script>
       </section>
     </section>
   </div>

@@ -19,7 +19,7 @@
   <title><?= $title ?></title>
   <meta name="description" content="<?= $description ?>">
 
-  <base href="http://192.168.0.51/Projects/websites/developercity/">
+  <base href="http://localhost/Projects/websites/developercity/">
 
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
   <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
@@ -64,7 +64,7 @@
         <li>
           <a href="about" title="About" <?= ($current_page == "about") ? "class='active'" : "" ?>>
             <div class="page-title">About</div>
-            <div class="page-description">A Little Info</div>
+            <div class="page-description">Brief Bio</div>
           </a>
         </li>
         <li>

@@ -9,13 +9,13 @@
     <section id=page-text class=clearfix>
       <h1>Website <br>Design</h1>
       <p class="right emphasize">
-        We create <a href="design#rwd">responsive</a> websites that push the boundaries of modern design.
+        I create <a href="design#rwd">responsive</a> websites that push the boundaries of modern design.
       </p>
       <p class=right>
         Humans make judgements based on aesthetics. Having a clean and interesting design for your website can be the difference between obtaining a new customer or losing them forever.
       </p>
       <p class=right>
-        We create websites that are designed to engage users regardless of what type of device they are browsing on. That could be a laptop, desktop, mobile or tablet.
+        I create websites that are designed to engage users regardless of what type of device they are browsing on. That could be a laptop, desktop, mobile or tablet.
       </p>
 
       <section id=rwd class="clearfix left">
@@ -31,10 +31,10 @@
       <section id=design-eng class="clearfix right">
         <h1 class=right>Design-Lead Engineering</h1>
         <p class=right>
-          Many websites are designed to fit the tools that have come before them, we believe that this approach is wrong. We don't think that the boundaries of design should be restricted by the content management systems and software packages that are available at the time.
+          Many websites are designed to fit the tools that have come before them, I believe that this approach is wrong. I don't believe that the boundaries of design should be restricted by the content management systems and software packages that are available at the time.
         </p>
         <p class=right>
-          We put aesthetic and experience design first and are not afraid of building new tools that enable our design decisions.
+          I put aesthetic and experience design first and am not afraid of building new tools to enable these design decisions.
         </p>
       </section>
 
@@ -44,7 +44,7 @@
           When a user comes to your website or web application you want to be sure that they have an enjoyable and memorable experience. That's the key to getting them to come back time after time.
         </p>
         <p class=left>
-          We spend a lot of time crafting truly meaningful user experiences and are able to do data analysis to identify the areas where the user experience can be improved.
+          I spend a lot of time crafting truly meaningful user experiences and am able to do data analysis to identify the areas where the user experience can be improved.
         </p>
       </section>
 

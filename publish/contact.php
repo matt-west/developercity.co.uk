@@ -10,7 +10,7 @@
       <h1 id=contact>Contact</h1>
 
       <section id=contact-message class=clearfix>
-        <h1>Send us a Message</h1>
+        <h1>Say Hello...</h1>
         <form method=post action="./">
           <p>
             <input type=text name=name placeholder=Name required>
