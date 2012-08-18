@@ -18,9 +18,6 @@
   <title><?= $title ?></title>
   <meta name="description" content="<?= $description ?>">
 
-  <base href="http://localhost/Projects/websites/developercity/">
-
-  
   <meta name=viewport content="width=device-width; initial-scale=1.0;"/>
   
   <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon"/> 
