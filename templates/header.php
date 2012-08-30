@@ -25,7 +25,7 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" /> 
   <link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon" /> 
 
-  <meta property="og:image" content="img/full-logo.png"/>
+  <meta property="og:image" content="img/dc-logo.png"/>
 
   <link rel="apple-touch-icon" href="apple_touch.png"/>
   <link rel="apple-touch-icon" sizes="72x72" href="apple_touch_72.png"/>
