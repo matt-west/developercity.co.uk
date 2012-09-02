@@ -19,6 +19,8 @@
   <title><?= $title ?></title>
   <meta name="description" content="<?= $description ?>">
 
+  <base href="<?= $_SERVER['SERVER_NAME']; ?>">
+
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
   <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
   

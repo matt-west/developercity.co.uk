@@ -39,6 +39,19 @@
                 </div>
               </div>
             </li>
+            <li class="clearfix">
+              <div class="event-date">
+                Jan <br>24
+              </div>
+              <div class="event-details">
+                <div class="event-name">
+                  New Adventures in Web Design
+                </div>
+                <div class="event-location">
+                  Nottingham, England
+                </div>
+              </div>
+            </li>
           </ul>
         </section>
 
