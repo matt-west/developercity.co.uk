@@ -9,7 +9,7 @@
     <section id="page-text" class="clearfix">
       <h1>Website <br>Design</h1>
       <p class="right emphasize">
-        I create <a href="design#rwd">responsive</a> websites that push the boundaries of modern design.
+        I create <a href="design#rwd">responsive</a> websites that delight users.
       </p>
       <p class="right">
         Humans make judgements based on aesthetics. Having a clean and interesting design for your website can be the difference between obtaining a new customer or losing them forever.
