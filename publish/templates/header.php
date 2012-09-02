@@ -18,7 +18,7 @@
   <title><?= $title ?></title>
   <meta name="description" content="<?= $description ?>">
 
-  <base href="<?= $_SERVER['SERVER_NAME']; ?>">
+  <base href="http://<?= $_SERVER['SERVER_NAME']; ?>">
 
   
   <meta name=viewport content="width=device-width; initial-scale=1.0;"/>
