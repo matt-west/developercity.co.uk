@@ -15,19 +15,6 @@
           <ul>
             <li class=clearfix>
               <div class=event-date>
-                Sept <br>20
-              </div>
-              <div class=event-details>
-                <div class=event-name>
-                  MK Geek Night
-                </div>
-                <div class=event-location>
-                  Milton Keynes, England
-                </div>
-              </div>
-            </li>
-            <li class=clearfix>
-              <div class=event-date>
                 Nov <br>12-16
               </div>
               <div class=event-details>
@@ -36,6 +23,19 @@
                 </div>
                 <div class=event-location>
                   Belfast, Northern Ireland
+                </div>
+              </div>
+            </li>
+            <li class=clearfix>
+              <div class=event-date>
+                Dec <br>6
+              </div>
+              <div class=event-details>
+                <div class=event-name>
+                  MK Geek Night
+                </div>
+                <div class=event-location>
+                  Milton Keynes, England
                 </div>
               </div>
             </li>
