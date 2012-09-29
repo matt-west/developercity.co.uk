@@ -106,11 +106,4 @@ $(document).ready(function() {
 
 function getSocial() {
   $('#twitter-posts').twitter({from: 'MattAntWest', retweets: false, limit : 8, avatar : false, replies: false});
-
-  $("#instagram-photos").instagram({
-    userId: '10798725',
-    clientId: '6b108482fa9944a694a6b1d8807d95a6',
-    accessToken: '10798725.6b10848.eaac2a39c14d4e8e8a5d1b03a3a928ed',
-    show: '12'
-  });
 }

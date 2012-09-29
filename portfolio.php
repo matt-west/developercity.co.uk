@@ -1,6 +1,6 @@
 <?php
-  $title = "Portfolio // Developer City";
-  $description = "";
+  $title = "Portfolio - Developer City";
+  $description = "A selection of recent web design and app development work.";
   
   include_once('templates/header.php');
 ?>

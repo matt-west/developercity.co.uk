@@ -1,6 +1,6 @@
 <?php
-  $title = "Contact // Developer City";
-  $description = "";
+  $title = "Contact Developer City";
+  $description = "How to get in touch with Developer City to discuss a web degirn or application development project.";
 
   include_once('templates/header.php');
 ?>
@@ -31,29 +31,28 @@
         </form>
       </section>
 
-      <section id="contact-social" class="clearfix">
-        <h1>Twitter &amp; Facebook</h1>
-        <p>
-          <a href="http://twitter.com/DeveloperCity" title="Developer City on Twitter" target="_blank">@DeveloperCity</a><br>
-          <a href="http://twitter.com/MattAntWest" title="Matt West on Twitter" target="_blank">@MattAntWest</a><br>
-          <a href="http://facebook.com/DeveloperCity" title="Developer City on Facebook" target="_blank">Developer City on Facebook</a>
-        </p>
-      </section>
-
-      <section id="contact-trad" class="clearfix">
+      <section id="contact-trad" class="clearfix" itemscope itemtype="http://schema.org/LocalBusiness">
+        <meta itemprop="image" content="http://developercity.co.uk/img/dc-logo.png">
+        <meta itemprop="url" content="http://developercity.co.uk">
+        <meta itemprop="email" content="hello@developercity.co.uk">
         <h1>Phone &amp; Post</h1>
         <p>
-          +44 (0) 1604 749014<br>
-          +44 (0) 2081 333216
+          <span itemprop="telephone">+44 (0) 1604 749014</span><br>
+          <span itemprop="telephone">+44 (0) 2081 333216</span>
+        </p>
+        <p itemscope itemtype="http://schema.org/PostalAddress" itemprop="address">
+          <span itemprop="name">Developer City</span><br>
+          <span itemprop="streetAddress">Seatons Business Centre</span><br>
+          <span itemprop="streetAddress">High Street</span><br>
+          <span itemprop="addressLocality">Guilsborough</span><br>
+          <span itemprop="addressRegion">Northamptonshire</span><br>
+          <span itemprop="postalCode">NN6 9EE</span><br>
+          <span itemprop="addressCountry">England</span>
         </p>
         <p>
-          Developer City<br>
-          Seatons Business Centre<br>
-          High Street<br>
-          Guilsborough<br>
-          Northamptonshire<br>
-          NN6 9EE<br>
-          England
+          <a href="https://twitter.com/MattAntWest" class="twitter-follow-button" data-show-count="false">Follow @MattAntWest</a>
+          <a href="https://twitter.com/DeveloperCity" class="twitter-follow-button" data-show-count="false">Follow @DeveloperCity</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </p>
       </section>
       

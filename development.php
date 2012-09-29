@@ -1,6 +1,6 @@
 <?php
-  $title = "Web Development // Developer City";
-  $description = "";
+  $title = "Web Development - Developer City";
+  $description = "Developer City specializes in the development of custom web applications.";
   
   include_once('templates/header.php');
 ?>

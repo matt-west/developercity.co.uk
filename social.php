@@ -1,6 +1,6 @@
 <?php
-  $title = "Social // Developer City";
-  $description = "";
+  $title = "Social - Developer City";
+  $description = "An overview of our social activity.";
   
   include_once('templates/header.php');
 ?>
@@ -9,7 +9,7 @@
     <section id="page-text" class="clearfix">
       <h1 id="social">Social</h1>
 
-      <div id="social-left">
+      <div id="social-right">
         <section id="social-events">
           <h1>Say Hello At...</h1>
           <ul>
@@ -53,11 +53,6 @@
               </div>
             </li>
           </ul>
-        </section>
-
-        <section id="social-instagram">
-          <h1>Instagram Photos</h1>
-          <div id="instagram-photos" class="clearfix"></div>
         </section>
       </div>
 

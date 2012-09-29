@@ -45,8 +45,8 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
  * Also: hot pink! (or customize the background color to match your design)
  */
 
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::-moz-selection { background: #000; color: #fff; text-shadow: none; }
+::selection { background: #000; color: #fff; text-shadow: none; }
 
 
 /* =============================================================================
@@ -791,14 +791,14 @@ h1#social {
 }
 
 section#social-twitter {
-  float: right;
+  float: left;
   width: 45%;
   min-height: 400px;
   margin: 0;
 }
 
-div#social-left {
-  float: left;
+div#social-right {
+  float: right;
   width: 45%;
   margin: 0;
 }
@@ -1119,7 +1119,7 @@ footer p:before {
   }
 
   section#social-twitter,
-  div#social-left {
+  div#social-right {
     float: none;
     width: auto;
     margin: 2em 0 0 0;
