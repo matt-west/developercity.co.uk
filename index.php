@@ -1,5 +1,5 @@
 <?php
-  $title = "Bespoke Web Design and Development - Developer City: The Studio of Matt West";
+  $title = "Bespoke Web Design and Development - Developer City (Matt West)";
   $description = "Web Design and Application Development in Market Harborough and Northampton.";
 
   include_once('templates/header.php');
