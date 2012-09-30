@@ -32,7 +32,7 @@
       </section>
 
       <section id="contact-trad" class="clearfix" itemscope itemtype="http://schema.org/LocalBusiness">
-        <meta itemprop="image" content="http://developercity.co.uk/img/dc-logo.png">
+        <meta itemprop="image" content="http://developercity.co.uk/apple_touch_114.png">
         <meta itemprop="url" content="http://developercity.co.uk">
         <meta itemprop="email" content="hello@developercity.co.uk">
         <h1>Phone &amp; Post</h1>

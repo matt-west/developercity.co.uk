@@ -10,7 +10,7 @@
   <title><?= $title ?></title>
   <meta name="description" content="<?= $description ?>">
 
-  <!--<base href="http://<?= $_SERVER['SERVER_NAME']; ?>">-->
+  <base href="http://<?= $_SERVER['SERVER_NAME']; ?>">
 
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
   <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
@@ -19,7 +19,7 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" /> 
   <link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon" /> 
 
-  <meta property="og:image" content="img/dc-logo.png"/>
+  <meta property="og:image" content="apple_touch_114.png"/>
 
   <link rel="apple-touch-icon" href="apple_touch.png"/>
   <link rel="apple-touch-icon" sizes="72x72" href="apple_touch_72.png"/>
