@@ -1,7 +1,7 @@
   <!-- Footer -->
   <footer class="clearfix">
     <p>Explore the Unknowable</p>
-    <small>&copy; 2010-2012 Developer City. All Rights Reserved.</small>
+    <small>&copy; 2010-2012 Developer City &amp; <a href="https://plus.google.com/103780700566333678292?rel=author" title="Matt West" rel="author" target="_blank">Matt West</a>. All Rights Reserved.</small>
   </footer>
 
 

@@ -10,9 +10,7 @@
   <title><?= $title ?></title>
   <meta name="description" content="<?= $description ?>">
 
-  <meta content="https://plus.google.com/103780700566333678292?rel=author" rel="author">
-
-  <base href="http://<?= $_SERVER['SERVER_NAME']; ?>">
+  <!--<base href="http://<?= $_SERVER['SERVER_NAME']; ?>">-->
 
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
   <meta name="viewport" content="width=device-width; initial-scale=1.0;" />

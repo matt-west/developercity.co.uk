@@ -289,6 +289,10 @@ body.index footer {
   bottom: 0;
 }
 
+body.index footer a {
+  color: #BABABA;
+}
+
 header {
   width: 90%;
   margin: 0 auto;
@@ -952,6 +956,10 @@ footer p {
 footer p:after,
 footer p:before {
   content: '"';
+}
+
+footer a {
+  color: rgba(0,0,0,0.3);
 }
 
 
