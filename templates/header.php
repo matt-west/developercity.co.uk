@@ -14,6 +14,7 @@
 
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
   <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
+  <meta name="google-site-verification" content="PGKs7Ix2AUSHsL8OPQJyP86AOhCYG_eYFnaMgIbuJIE" />
   
   <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" /> 
   <link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon" /> 
