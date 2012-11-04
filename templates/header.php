@@ -2,7 +2,7 @@
   $current_page = str_replace(".php", "", basename($_SERVER['PHP_SELF']));
 ?>
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
