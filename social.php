@@ -15,19 +15,6 @@
           <ul>
             <li class="clearfix">
               <div class="event-date">
-                Nov <br>12-16
-              </div>
-              <div class="event-details">
-                <div class="event-name">
-                  Build Conference 2012
-                </div>
-                <div class="event-location">
-                  Belfast, Northern Ireland
-                </div>
-              </div>
-            </li>
-            <li class="clearfix">
-              <div class="event-date">
                 Dec <br>6
               </div>
               <div class="event-details">
