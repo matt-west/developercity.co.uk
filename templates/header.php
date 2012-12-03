@@ -10,8 +10,7 @@
   <title><?= $title ?></title>
   <meta name="description" content="<?= $description ?>">
 
-  <!--<base href="http://<?= $_SERVER['SERVER_NAME']; ?>">-->
-  <base href="http://localhost:8080/websites/developercity/">
+  <base href="http://<?= $_SERVER['SERVER_NAME']; ?>">
 
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
   <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
