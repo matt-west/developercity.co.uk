@@ -1,6 +1,5 @@
 @import url('jquery.fancybox.css');
 
-
 /*
  * HTML5 Boilerplate
  *
@@ -908,22 +907,37 @@ section#contact-message h1 {
   Portfolio
 ****************************/
 
-.project figure.left {
+.project {
+  float: left;
+}
+
+#page-text .project {
+  margin-top: 4em !important;
+}
+
+#page-text .project#html5-foundations {
+  margin-top: 0 !important;
+}
+
+#page-text .project h1 {
+  float: none;
+  display: inline-block;
+  font-size: 2em;
+  margin: 0.25em 0 0 0;
+}
+
+.project figure {
   clear: both;
   float: left;
-  width: 55%;
+  width: 50%;
   line-height: 1.8em;
   letter-spacing: 1px;
   text-align: justify;
 }
 
-.project figure.right {
-  clear: both;
-  float: right;
-  width: 55%;
-  line-height: 1.8em;
-  letter-spacing: 1px;
-  text-align: justify;
+.project-content {
+  margin-left: 50%;
+  padding-left: 3em;
 }
 
 .project figure img {
@@ -931,9 +945,20 @@ section#contact-message h1 {
   box-shadow: 0 3px 10px rgba(0,0,0,0.3);
 }
 
-.visit-link {
+.visit-link,
+.visit-link:visited {
   display: block;
-  text-align: right;
+  float: left;
+  padding: 0.3em 0.75em;
+  background: #000;
+  border-radius: 3px;
+  color: white;
+}
+
+.visit-link:hover,
+.visit-link:focus {
+  background: #636363;
+  color: white;
 }
 
 /****************************
@@ -1010,6 +1035,20 @@ footer a {
   #home-container h1 {
     font-size: 4em;
   }
+
+  .project figure {
+    float: none;
+    width: 100%;
+  }
+
+  .project-content {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  #page-text .project h1 {
+    margin-top: 0.75em;
+  }
 }
 
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
@@ -1070,16 +1109,6 @@ footer a {
   }
 
   #page-text p.right {
-    float: none;
-    width: 100%;
-  }
-
-  .project figure.left {
-    float: none;
-    width: 100%;
-  }
-
-  .project figure.right {
     float: none;
     width: 100%;
   }
@@ -1200,6 +1229,12 @@ footer a {
   section#social-twitter h1, section#social-events h1, section#social-instagram h1 {
     font-size: 1.2em;
     letter-spacing: 2px;
+  }
+
+  #page-text .project h1 {
+    font-size: 1.4em;
+    font-weight: normal;
+    text-transform: none;
   }
 
   footer {
