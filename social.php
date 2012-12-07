@@ -15,19 +15,6 @@
           <ul>
             <li class="clearfix">
               <div class="event-date">
-                Dec <br>6
-              </div>
-              <div class="event-details">
-                <div class="event-name">
-                  MK Geek Night
-                </div>
-                <div class="event-location">
-                  Milton Keynes, England
-                </div>
-              </div>
-            </li>
-            <li class="clearfix">
-              <div class="event-date">
                 Jan <br>24
               </div>
               <div class="event-details">
@@ -36,6 +23,32 @@
                 </div>
                 <div class="event-location">
                   Nottingham, England
+                </div>
+              </div>
+            </li>
+            <li class="clearfix">
+              <div class="event-date">
+                March <br>1
+              </div>
+              <div class="event-details">
+                <div class="event-name">
+                  Responsive Day Out
+                </div>
+                <div class="event-location">
+                  Brighton, England
+                </div>
+              </div>
+            </li>
+            <li class="clearfix">
+              <div class="event-date">
+                March <br>21
+              </div>
+              <div class="event-details">
+                <div class="event-name">
+                  MK Geek Night
+                </div>
+                <div class="event-location">
+                  Milton Keynes, England
                 </div>
               </div>
             </li>
